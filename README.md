@@ -45,7 +45,7 @@ If you want personalize add the following parameters:
 ```
 
 ### Spark Sql with Cassandra integration. 
-SparkSqlWithCassandraApp.scala - A few examples demonstrate simple analyze of imaginary clients transactions. In first part clients and their transactions are generating and store in Cassandra. In second part is perform simple analyze - current balance of account, clients country statistics and at the end suspicious transactions. All results are storing in Cassandra at the end.
+SparkSqlWithCassandraApp.scala - A few examples demonstrate simple analyze of imaginary clients transactions. In first part clients and their transactions are generating and store in Cassandra. In second part is perform simple analyze - current balance of account, clients country statistics and at the end suspicious transactions. All results are storing in Cassandra.
 
 For running this example you have to have up and running Cassandra database on local host. No parameters are required. 
 
