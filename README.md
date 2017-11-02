@@ -33,6 +33,8 @@ If you want personalize add the following parameters:
 --redis redis://<host>:<port>/<database number> --userId <new user Id>
 ``` 
 
+More info on [Wiki](https://github.com/jacekrozwadowski/SparkMachineLearning/wiki)
+
 ### Content Based recommendation engine
 TFIDFContentBaseRecApp.scala - Spark/scala TF-IDF based CB recommender. It is using the following transformation transits
 Term Frequency(TF) -> Inverse Document Frequency(IDF) -> Cosine Similarity(CS)
@@ -42,5 +44,8 @@ If you want personalize add the following parameters:
 --givenIndex <consider index default 1>
 ```
 
+### Spark Sql with Cassandra integration. 
+SparkSqlWithCassandraApp.scala - A few examples demonstrate simple analyze of imaginary clients transactions. In first part clients and their transactions are generating and store in Cassandra. In second part is perform simple analyze - current balance of account, clients country statistics and at the end suspicious transactions. All results are storing in Cassandra at the end.
 
-More info on [Wiki](https://github.com/jacekrozwadowski/SparkMachineLearning/wiki)
+For running this example you have to have up and running Cassandra database on local host. No parameters are required. 
+
